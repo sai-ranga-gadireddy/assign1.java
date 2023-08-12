@@ -3,9 +3,9 @@ public class ifElse()
   public static void main(String[]args){
   int num= 24;
   if(num%2===0) {
-  System.out.println("Given Number is even",+num);
-  }else {
-  System.out.println("Given Number is odd",+num);
+  system.out.println(num + " is an even number");
+  } else {
+  System.out.println(num + " is an odd number ");
   }
 }
 }
