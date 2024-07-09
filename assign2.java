@@ -1,11 +1,12 @@
 public class Primeno 
 {
-public static void main(String[] args) 
+public static void main(String[] args) //main method
 { 
   int num=27;
   checkPrime(num);
 }
-private static void checkPrime(int num)
+private static void checkPrime(int num) 
+(//check given number is prime or not)
   {
     int cnt=0;
     if(num<2)
